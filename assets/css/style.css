@@ -1,0 +1,182 @@
+body {
+    background-image: url("../cheap_diagonal_fabric.png");
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+  width:960;
+  background: #ffffff;
+  border: 1px #cccccc;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.Shamera {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  width: 170px;
+  padding: 5px;
+  margin: 20px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+h1{
+  display: inline-block;
+}
+
+ul {
+  width: 300px;
+  float:right;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 15px;
+  margin-right: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  margin-top: 0px;
+  float: right;
+}
+
+li a {
+  display: block;
+  color:#777777;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffffff;
+}
+
+.AboutMe {
+  color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+  width: 995px;
+  margin: auto;
+}
+
+.main {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    width: 960px;
+    border: 2px solid #dddddd;
+    padding: 15px;
+    margin: auto;
+    margin-top: 25px; 
+}
+
+.JS {
+  border: 1px solid #666666;
+  padding: 3px 3px 3px 3px;
+  margin-bottom: 5px;
+}
+
+.Emails {
+  border: 1px solid #666666;
+  padding: 3px 3px 3px 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Message{
+  border: 1px solid #666666;
+  padding: 3px 3px 3px 3px;
+  height: 200px;
+  margin-top: 5px;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font: 12px;
+  text-decoration: none;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 8px 8px 8px 8px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#666666;
+  border-top: 3px solid #4aaaa5;
+  text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .main {
+    width: 80%;
+  }
+
+  .header {
+    width: 80%;
+    padding-right: 80px;
+  }
+
+  .Shamera {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  ul {
+    padding-right: 20%;
+
+  }
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 60%;
+  }
+
+  .header {
+    width: 60%;
+  }
+
+  .Shamera {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  ul {
+    padding-right: 40%;
+
+  }
+ 
+}
+
+@media screen and (max-width: 460px) {
+  .main {
+    width: 40%;
+  }
+
+  .header {
+    
+    width: 40%;
+  }
+
+  .Shamera {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  ul {
+    padding-right: 60%;
+
+  }
+ 
+}
+
